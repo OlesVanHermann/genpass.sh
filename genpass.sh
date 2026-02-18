@@ -2,6 +2,7 @@
 # genpass.sh - Générateur de mot de passe 16 chars avec entropie temporelle
 
 set -u
+export LC_ALL=C
 
 # Étape 1 : générer 16 durées de sleep (100 à 900 ms)
 SLEEPS=()
